@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,700" rel="stylesheet">
+  <title>Frontend Mentor | [Vaycheslav Fialko]</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <header class="dashboard-header">
+    <div class="container">
+      <div class="dashboard-header-container">
+        <div class="dashboard-header__title">
+          <h1 class="dashboard-header__heading">Social Media Dashboard</h1>
+          <p class="dashboard-header__total-followers">Total Followers: 23,004</p>
+        </div>
+        <div class="dashboard-header__check-theme">
+          <span class="dashboard-header__check-theme-name">Dark Mode</span>
+          <span class="check-theme__item" id="check-theme"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="social-network card__container">
+      <div class="card social-network__card">
+        <div class="social-network__card-line social-network__card-line--bg-blue"></div>
+        <div class="social-network__card-content">
+          <div class="social-network__card-header">
+            <span class="card__icon icon__fb"></span>
+            <span class="social-network__card-nik">@nathanf</span>
+          </div>
+          <div class="social-network__card-follwers">
+            <span class="social-network__card-follwers-count">1987</span>
+            <span class="social-network__card-follwers-text">Followers</span>
+          </div>
+          <div class="social-network__card-statistic up">12 Today</div>
+        </div>
+      </div>
+      <div class="card social-network__card">
+        <div class="social-network__card-line social-network__card-line--bg-lightblue"></div>
+        <div class="social-network__card-content">
+          <div class="social-network__card-header">
+            <span class="card__icon icon__tw"></span>
+            <span class="social-network__card-nik">@nathanf</span></div>
+          <div class="social-network__card-follwers">
+            <span class="social-network__card-follwers-count">1044</span>
+            <span class="social-network__card-follwers-text">Followers</span>
+          </div>
+          <div class="social-network__card-statistic up">99 Today</div>
+        </div>
+
+      </div>
+      <div class="card social-network__card">
+        <div class="social-network__card-line social-network__card-line--bg-gradient"></div>
+        <div class="social-network__card-content">
+          <div class="social-network__card-header">
+            <span class="card__icon icon__inst"></span>
+            <span class="social-network__card-nik">@realnathanf</span>
+          </div>
+          <div class="social-network__card-follwers">
+            <span class="social-network__card-follwers-count">11k</span>
+            <span class="social-network__card-follwers-text">Followers</span>
+          </div>
+          <div class="social-network__card-statistic up">1099 Today</div>
+        </div>
+
+      </div>
+      <div class="card social-network__card">
+        <div class="social-network__card-line social-network__card-line--bg-red"></div>
+        <div class="social-network__card-content">
+          <div class="social-network__card-header">
+            <span class="card__icon icon__youtube"></span>
+            <span class="social-network__card-nik">Nathan F.</span>
+          </div>
+          <div class="social-network__card-follwers">
+            <span class="social-network__card-follwers-count">8239</span>
+            <span class="social-network__card-follwers-text">Subscribers</span>
+          </div>
+          <div class="social-network__card-statistic down">144 Today</div>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="overview">
+      <h2 class="overview__title">Overview - Today</h2>
+      <div class="card__container">
+        <div class="card overview-card">
+          <div class="overview-card__actions overview-card__item">Page Views</div>
+          <div class="overview-card__icon overview-card__item">
+            <span class="card__icon icon__fb"></span>
+          </div>
+          <div class="overview-card__count overview-card__item">87</div>
+          <div class="overview-card__statistic overview-card__item">
+            <span class="up">3%</span>
+          </div>
+        </div>
+        <div class="card overview-card">
+          <div class="overview-card__actions overview-card__item">Likes</div>
+          <div class="overview-card__icon overview-card__item">
+            <span class="card__icon icon__fb"></span>
+          </div>
+          <div class="overview-card__count overview-card__item">52</div>
+          <div class="overview-card__statistic overview-card__item">
+            <span class="down">2%</span>
+          </div>
+        </div>
+        <div class="card overview-card">
+          <div class="overview-card__actions overview-card__item">Likes</div>
+          <div class="overview-card__icon overview-card__item">
+            <span class="card__icon icon__inst"></span>
+          </div>
+          <div class="overview-card__count overview-card__item">5462</div>
+          <div class="overview-card__statistic overview-card__item">
+            <span class="up">2257%</span>
+          </div>
+        </div>
+        <div class="card overview-card">
+          <div class="overview-card__actions overview-card__item ">Profile Views</div>
+          <div class="overview-card__icon overview-card__item">
+            <span class="card__icon icon__inst"></span>
+          </div>
+          <div class="overview-card__count overview-card__item">52k</div>
+          <div class="overview-card__statistic overview-card__item">
+            <span class="up">1375%</span>
+          </div>
+        </div>
+        <div class="card overview-card">
+          <div class="overview-card__actions overview-card__item ">Retweets</div>
+          <div class="overview-card__icon overview-card__item">
+            <span class="card__icon icon__tw"></span>
+          </div>
+          <div class="overview-card__count overview-card__item">117</div>
+          <div class="overview-card__statistic overview-card__item">
+            <span class="up">303%</span>
+          </div>
+        </div>
+        <div class="card overview-card">
+          <div class="overview-card__actions overview-card__item ">Likes</div>
+          <div class="overview-card__icon overview-card__item">
+            <span class="card__icon icon__tw"></span>
+          </div>
+          <div class="overview-card__count overview-card__item">507</div>
+          <div class="overview-card__statistic overview-card__item">
+            <span class="up">553%</span>
+          </div>
+        </div>
+        <div class="card overview-card">
+          <div class="overview-card__actions overview-card__item ">Likes</div>
+          <div class="overview-card__icon overview-card__item">
+            <span class="card__icon icon__youtube"></span>
+          </div>
+          <div class="overview-card__count overview-card__item">107</div>
+          <div class="overview-card__statistic overview-card__item">
+            <span class="down">19%</span>
+          </div>
+        </div>
+        <div class="card overview-card">
+          <div class="overview-card__actions overview-card__item ">Total Views</div>
+          <div class="overview-card__icon overview-card__item">
+            <span class="card__icon icon__youtube"></span>
+          </div>
+          <div class="overview-card__count overview-card__item">1407</div>
+          <div class="overview-card__statistic overview-card__item">
+            <span class="down">12%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

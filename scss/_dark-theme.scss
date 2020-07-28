@@ -1,0 +1,41 @@
+@import './var';
+
+.dark-theme{
+    background: $very-dark-blue;
+    color: $desaturated-blue;
+
+    .dashboard-header{
+background: $dark-bg-pattern;
+    }
+
+    .dashboard-header__heading{
+        color: $white;
+    }
+.check-theme__item{
+    background: linear-gradient(to right, $dark-toggle);
+    &::after{
+        background: $dark-bg-pattern;
+        right: auto;
+        left: 4px;
+    }
+}
+    .card{
+        background: $dark-card-bg;
+
+        &:hover{
+            background: #333a56;
+        }
+    }
+
+    .social-network__card-follwers-count{
+        color: $white;
+    }
+
+    .overview__title{
+        color: $white;
+    }
+
+    .overview-card__count{
+        color: $white
+    }
+}
